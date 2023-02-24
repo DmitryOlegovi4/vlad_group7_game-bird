@@ -1,0 +1,23 @@
+
+
+body
+    {
+    background-color:#625067;
+    }
+
+canvas {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+}
+.btn_start{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 3px 3px 5px;
+    cursor: pointer;
+}
